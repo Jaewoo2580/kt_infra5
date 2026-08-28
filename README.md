@@ -13,5 +13,4 @@
 curl -L "https://github.com/Jaewoo2580/kt_infra5/raw/refs/heads/main/example.zip" -o example.zip && unzip example.zip && rm example.zip
 mkdir -p lab && cp example/*.sh lab/ && rm -rf example
 ```
-## mkdir 명령어는 기존에 example폴더 안에 있는 모든 *.sh를
-## lab폴더를 만들어서 옮기고 삭제하는 명령어 입니다.
+mkdir 명령어는 기존에 example폴더 안에 있는 모든 *.sh를 lab폴더를 만들어서 옮기고 삭제하는 명령어 입니다.
