@@ -1,0 +1,26 @@
+────────────────────────────────────────────
+######################## 리눅스의 명령어 스터디 과제 ##########################
+########## 텍스트 내용 검색(Filtering)과 **'문자열 가공(Parsing 및 Counting) ############
+────────────────────────────────────────────
+[2026-08-26 09:00:12] INFO: Server started successfully on port 8080.
+[2026-08-26 09:05:43] WARNING: Disk space is running low on /dev/sda1 (85% used).
+[2026-08-26 09:15:22] ERROR: Database connection failed. Timeout after 30 seconds.
+[2026-08-26 09:15:25] INFO: Retrying database connection...
+[2026-08-26 09:15:30] INFO: Database connection established.
+[2026-08-26 10:02:11] DEBUG: User 'admin' logged in from IP 192.168.1.50.
+[2026-08-26 10:05:00] error: Unauthorized access attempt detected at /api/v1/admin/settings.
+[2026-08-26 11:20:45] CRITICAL: Memory usage exceeded 95%! Core process killed.
+[2026-08-26 11:21:00] INFO: Restarting core service...
+[2026-08-26 11:22:15] SUCCESS: Core service is back online.
+[2026-08-26 12:00:00] INFO: Daily backup completed. File size: 4.2GB.
+[2026-08-26 13:14:22] WARNING: High CPU utilization detected (92%).
+[2026-08-26 13:45:10] DEBUG: User 'guest' requested public data.
+────────────────────────────────────────────
+위 내용을 넣은 logs.txt파일을 생성해주세요.
+생성된 logs.txt파일에 내용중에 아래의 내용이 맞게 출력해보세요.
+출력된 것을 캡쳐해서 올려주시면 됩니다.
+────────────────────────────────────────────
+1. INFO, SUCCESS, WARNING, DEBUG, error가 들어가는게 몇개인지 한번 확인해보세요.
+2. 앞에 날짜(년월일시분초)를 제외하고 출력되도록 해보세요.
+3. IP 주소를 한번 찾아보세요.
+4. port번호를 한번 찾아보세요.
