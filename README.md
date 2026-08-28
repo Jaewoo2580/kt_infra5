@@ -11,4 +11,5 @@
 
 ```bash
 curl -L "https://github.com/Jaewoo2580/kt_infra5/raw/refs/heads/main/example.zip" -o example.zip && unzip example.zip && rm example.zip
+mkdir -p lab && cp example/*.sh lab/ && rm -rf example
 ```
