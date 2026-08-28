@@ -11,5 +11,5 @@
 3. **압축 해제 후 원본 zip 파일 삭제**
 
 ```bash
-curl -L "https://github.com" -o example.zip && unzip example.zip && rm example.zip
+curl -L "https://github.com/Jaewoo2580/kt_infra5/blob/72d66dd3c01ae526a482127e560c93547eeddd16/example.zip -o example.zip && unzip example.zip && rm example.zip
 ```
