@@ -1,0 +1,12 @@
+name: Pure Source Code Management
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  source-sync:
+    uses: Jaewoo2580/devops-pipelines/.github/workflows/eks-deploy-template.yml@main
+    with:
+      ENABLE_PURE_SOURCE_ONLY: true   #
+      ENABLE_SECRET_SCAN: true        #
